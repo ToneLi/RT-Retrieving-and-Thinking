@@ -6,4 +6,4 @@ we refer to the source of [code of GPT-NER](https://github.com/ShuheWang1998/GPT
 
 The architecture of our proposed RT is depicted in the diagram below.   It consists of three major parts:
 
-<img src="https://github.com/ToneLi/HNZSLP/blob/main/framework.jpg" width="500"/>
+<img src="https://github.com/ToneLi/RT-Retrieving-and-Thinking/blob/main/RT_framework.png" width="500"/>
