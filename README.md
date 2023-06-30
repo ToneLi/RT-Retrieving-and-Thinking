@@ -11,3 +11,23 @@ Based on the findings mentioned above, we introduce a novel approach called RT (
 method comprises two primary steps: (1) retrieving the most pertinent examples for the given test sentence, which are incorporated as part of the instruction 
 in the ICL. This step is accomplished through the process of Retrieving. (2) guiding LLM to recognize the entity gradually, demonstrating this
 progression as Thinking. In the following sections, we provide a comprehensive explanation of each component.
+
+
+### 3) Run Code
+
+```markdown
+ For example: 
+
+ model generation:
+ please enter: RT_BC5CDR\3_RT
+
+ step1:  python 0_extract_mrc_knn.py
+ step2: python 1_extract_mrc_knn5.py
+ step3: 2_our_model_shot1_BC5.py
+ step4:2_our_model_shot5_BC5.py 
+ Please use the default parameters.
+
+model test:
+ please enter RT_BC5CDR\3_RT\data\BCD5\
+ python F1_evaluation.py
+```
