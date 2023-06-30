@@ -4,6 +4,10 @@ we refer to the source of [code of GPT-NER](https://github.com/ShuheWang1998/GPT
 
 ### 1) Overview
 
-The architecture of our proposed RT is depicted in the diagram below.   It consists of three major parts:
+The architecture of our proposed RT is depicted in the diagram below.   It consists of two major parts:
 
 <img src="https://github.com/ToneLi/RT-Retrieving-and-Thinking/blob/main/RT_framework.png" width="500"/>
+Based on the findings mentioned above, we introduce a novel approach called RT (Retrieving and Thinking) and present it in Figure 5. The RT
+method comprises two primary steps: (1) retrieving the most pertinent examples for the given test sentence, which are incorporated as part of the instruction 
+in the ICL. This step is accomplished through the process of Retrieving. (2) guiding LLM to recognize the entity gradually, demonstrating this
+progression as Thinking. In the following sections, we provide a comprehensive explanation of each component.
