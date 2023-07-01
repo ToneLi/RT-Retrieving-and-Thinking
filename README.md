@@ -31,3 +31,11 @@ model test:
  please enter RT_BC5CDR\3_RT\data\BCD5\
  python F1_evaluation.py
 ```
+
+### 3) Examples in Different Instructions 
+In Figure. 2, we give a detailed example of output on different ICL strategies, Vanilla ICL, the chain
+of thought, and the tree of thought. For the idea of the tree of thought, we design the
+examples (samples) in the instruction as shown in below. 
+
+<img src="https://github.com/ToneLi/RT-Retrieving-and-Thinking/blob/main/different_output.png" width="500"/>
+
