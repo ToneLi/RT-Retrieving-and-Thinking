@@ -13,7 +13,7 @@ in the ICL. This step is accomplished through the process of Retrieving. (2) gui
 progression as Thinking. In the following sections, we provide a comprehensive explanation of each component.
 
 
-### 3) Run Code
+### 2) Run Code
 
 ```markdown
  For example: 
