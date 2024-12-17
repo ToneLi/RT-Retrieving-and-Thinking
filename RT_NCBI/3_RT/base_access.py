@@ -29,7 +29,7 @@ class AccessBase(object):
         self.best_of = best_of
 
     def _get_multiple_sample(self, prompt_list: List[str]):
-        openai.api_key ""#os.environ["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"]
+        openai.api_key 
         response = openai.Completion.create(
             engine=self.engine,
             prompt=prompt_list,
